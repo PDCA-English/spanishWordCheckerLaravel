@@ -1,0 +1,215 @@
+@charset "utf-8";
+
+/* リセットcss */
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin:0;
+  padding:0;
+  border:0;
+  outline:0;
+  font-size:100%;
+  vertical-align:baseline;
+  background:transparent;
+}
+
+body {
+  line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+  display:block;
+}
+
+nav ul {
+  list-style:none;
+}
+
+blockquote, q {
+  quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content:'';
+  content:none;
+}
+
+a {
+  margin:0;
+  padding:0;
+  font-size:100%;
+  vertical-align:baseline;
+  background:transparent;
+}
+
+/* index header*/
+.infoContent {
+  width: 80%;
+  padding: 20px 0 20px 20px ;
+  
+}
+
+.first-line{
+  display: flex;
+  justify-content: left;
+  padding-right: 5px;
+}
+
+.first-line h3{
+  padding: 5px;
+}
+
+.second-line{
+  padding: 5px;
+}
+
+header {
+  display: flex;
+  background-color: lightskyblue;
+  width: 100%;
+  height: 100px;
+}
+
+header button {
+  width: 100%;
+  height: 100px;
+  font-size: 50px;
+  padding: 10px;
+}
+
+/* index content*/
+.toc label{
+  display:block;
+  position:relative;
+  padding-left:1em;
+  line-height:1.5em;
+  font-size:20px;
+}
+.toc label input{
+  position:absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  margin:auto;
+}
+
+.toc h2 {
+  font-size: 30px;
+  margin: 30px 0 20px 30px;
+}
+
+.chapterContent {
+  font-size: 25px;
+  font-weight: 600;
+  margin: 0 0 5px 50px;
+}
+
+.sectionContents {
+  font-size: 20px;
+  font-weight: 500;
+  display: block;
+  margin: 0 0 0 70px;
+}
+
+.sectionContents label {
+  display: block;
+}
+
+/* Voice Recog*/
+.quizHead {
+  display: flex;
+  width: 100%;
+  height: 100px;
+}
+
+.quizHead button{
+  width: 250px;
+  font-size: 25px;
+  height: 100%;
+}
+
+.countDown {
+  display: flex;
+  width: 60%;
+  justify-content: center;
+  align-items: center;
+}
+
+.counter {
+  width: 20%;
+  text-align: center;
+  padding: 25px 0;
+  border-radius: 0 0 0 100px;
+  border: medium solid black
+}
+
+.counterNum {
+  display: flex;
+  justify-content: center;
+
+}
+
+.jsentence {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+}
+
+.esentence {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  color: lightsalmon;
+  font-weight: 700;
+}
+
+.speechRecog{
+  font-family: Open Sans;
+}
+#result{
+  height: 200px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  box-shadow: 0 0 10px 0 #bbb;
+  margin-bottom: 30px;
+  font-size: 14px;
+  line-height: 25px;
+}
+
+.speechRecog button{
+  font-size: 20px;
+  position: absolute;
+  top: 240px;
+  left: 50%;
+}
+
+/* Hints */
+.hints {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.hints button {
+  width: 20%;
+  margin: 0 50px;
+  height: 100px;
+  font-size: 25px;
+  border-radius: 5px;
+}
